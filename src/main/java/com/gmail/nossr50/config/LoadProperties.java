@@ -27,7 +27,6 @@ public class LoadProperties extends ConfigLoader{
                           addlevelsEnable, mcrefreshEnable, aEnable, pEnable;
     public static Boolean aDisplayNames, pDisplayNames;
     public static int ptpCommandCooldown;
-    public static Boolean donateMessage;
 
     /* Tool Level Requirements */
     public static Boolean perLevelTools;
@@ -195,7 +194,7 @@ public class LoadProperties extends ConfigLoader{
         enableAbilityMessages = config.getBoolean("Abilities.Messages", true);
         enableAbilities = config.getBoolean("Abilities.Enabled", true);
 
-        donateMessage = config.getBoolean("Commands.mcmmo.Donate_Message", true);
+
         xpGainsMobSpawners = config.getBoolean("Experience.Gains.Mobspawners.Enabled", false);
 
         bonesConsumedByCOTW = config.getInt("Skills.Taming.Call_Of_The_Wild.Bones_Required", 10);
